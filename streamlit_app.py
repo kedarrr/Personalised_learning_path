@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Define the URL of your FastAPI endpoint
-FASTAPI_URL = "http://<fastapi_host>:8000/generate_learning_path"
+FASTAPI_URL = "https://fastapi-a8tk.onrender.com/generate_learning_path"
 
 # Function to call the FastAPI endpoint
 def call_fastapi_endpoint(data):
