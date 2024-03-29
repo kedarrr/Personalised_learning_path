@@ -6,7 +6,7 @@ FASTAPI_URL = "https://fastapi-a8tk.onrender.com/generate_learning_path"
 
 # Function to call the FastAPI endpoint
 def call_fastapi_endpoint(data):
-    response = requests.post(FASTAPI_URL, json=data)
+    response = requests.post("https://fastapi-a8tk.onrender.com/generate_learning_path", json=data)
     if response.status_code == 200:
         return response.json()["learning_path"]
     else:
