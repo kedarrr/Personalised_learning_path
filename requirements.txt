@@ -1,4 +1,4 @@
 streamlit
-fastapi
-openai
 requests
+fastapi==0.68.0
+openai==0.12.5
